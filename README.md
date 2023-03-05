@@ -1,7 +1,7 @@
 # EDD - Ent Driven Development
 
 
-## Predications and FAQ (QAP)
+## Predictions and FAQ (QAP)
 * Q: is Question
 * A: is Answer
 * P: is Predicion
