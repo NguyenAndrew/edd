@@ -18,7 +18,7 @@ A: Ent is a new word based on the word "Entity". Ent represents the composable b
 
 <br>
 
-#### Q: Why not just the word entity?
+#### Q: Why not just use the word entity?
 
 A: Ent is shorter to say, and I didn't want to cause confusion by using the word entity, which has multiple definitions today.
 
