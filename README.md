@@ -1,2 +1,9 @@
 # EDD - Ent Driven Development
-Learn how EDD applies to in a post AI assistant world.
+
+
+## Predications and FAQ
+* Q: is Question
+* A: is Answer
+* P: is Predicion
+
+
