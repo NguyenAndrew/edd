@@ -26,7 +26,7 @@ A: Ent is shorter to say, and I didn't want to cause confusion by using the word
 
 #### Q: Why did you create EDD?
 
-A: To help create a reusable way of making cool stuff in a post AI assistant world.
+A: To establish a reusable way of making cool stuff in a post AI assistant world.
 
 <br>
 
