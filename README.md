@@ -1,5 +1,9 @@
 # EDD - Ent Driven Development
 
+EDD is a problem solving process using ChatGPT (and any other future AI assistant). The 'E' in EDD stands for "ent", the core topic used in this process.
+
+More clarifications can be seen in the following examples and FAQ.
+
 ## Table of Contents
 
 * [Example 1 - Play any song](#example-1-play-any-song)
