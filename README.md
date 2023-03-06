@@ -190,6 +190,32 @@ graph LR
     B --> E
 ```
 
+Let's solve "Play CSV" next. You try to solve this problem with AI assistance, but you have no solution here. You come up with the following ents "Convert CSV to WAV" and "Play WAV".
+
+```mermaid
+graph LR
+    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style F fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style G fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    A[Make a program that plays a song from a spreadsheet]
+    B[Convert a song into CSV]
+    C[Play CSV]
+    D[Provide a WAV File]
+    E[Convert WAV to CSV]
+    F[Convert CSV to WAV]
+    G[Play WAV]
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+```
+
 ## Predictions and FAQ (QAP)
 * Q: is Question
 * A: is Answer
