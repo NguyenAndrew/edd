@@ -131,6 +131,8 @@ A: EDD can work with microservice and bounded contexts. Similar to how TDD and B
 
 P: EDD is going to change how people think about microservice and bounded contexts, especially with how focused EDD is on composables pieces of value delivery
 
+<br>
+
 #### Q: Does EDD replace TDD or BDD?
 
 A: EDD is another option, it doesn't replace TDD or BDD directly (Reminder: EDD is a new way of solving problems in a post AI assistant world).
