@@ -96,6 +96,8 @@ graph LR
     A --> C
 ```
 
+Example 1 is now solved!
+
 ## Example 2 (Play any spreadsheet)
 
 Let's use a harder and more innovative example. This example is based on a real life problem and solution! 
@@ -313,6 +315,8 @@ graph LR
     C --> D
     C --> E
 ```
+
+Example 2 is now solved!
 
 ## Predictions and FAQ (QAP)
 * Q: is Question
