@@ -4,7 +4,7 @@
 
 ## Example 1 (Play any song)
 
-Imagine you are trying to solve for the following problem **"Make a program that plays any song"**.
+Imagine you are trying to solve the following problem **"Make a program that plays any song"**.
 
 <br>
 
