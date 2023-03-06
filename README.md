@@ -20,7 +20,7 @@ graph LR
     style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
-Let's say when you try to solve the problem with AI, the program plays only simple songs. It does not play complex songs. In this case, you would color the box grey, as this problem was not solved.
+Let's say when you try to solve the problem with AI, the program plays only simple songs. It does not play complex songs. In this case, you would color the box grey, as this problem was not solved with AI.
 
 ```mermaid
 graph LR
