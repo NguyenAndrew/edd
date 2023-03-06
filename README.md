@@ -34,4 +34,4 @@ A: To establish a reusable way of making cool stuff in a post AI assistant world
 
 A: Referring to a world post ChatGPT and GitHub CoPilot
 
-P: I believe there are going to be different names for the AI assistants in the future. For this reason, I wanted to keep "AI Assistant generic".
+P: I believe there are going to be different names for the AI assistants in the future. For this reason, I wanted to keep "AI Assistant" fix.
