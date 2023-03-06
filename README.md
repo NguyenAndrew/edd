@@ -104,7 +104,7 @@ Imagine you want to play a CSV file (spreadsheet file), where that CSV contains 
 
 ```mermaid
 graph LR
-    A[Make a program that plays a song from a spreadsheet]
+    A[Make a program that plays any song from a spreadsheet]
     style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
@@ -112,7 +112,7 @@ Let's say you try to solve this problem directly with an AI, and it doesn't work
 
 ```mermaid
 graph LR
-    A[Make a program that plays a song from a spreadsheet]
+    A[Make a program that plays any song from a spreadsheet]
     style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
@@ -123,7 +123,7 @@ graph LR
     style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style B fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays a song from a spreadsheet]
+    A[Make a program that plays any song from a spreadsheet]
     B[Convert a song into CSV]
     C[Play CSV]
     A --> B
@@ -139,7 +139,7 @@ graph LR
     style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style D fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style E fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays a song from a spreadsheet]
+    A[Make a program that plays any song from a spreadsheet]
     B[Convert a song into CSV]
     C[Play CSV]
     D[Provide a WAV File]
@@ -159,7 +159,7 @@ graph LR
     style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style D fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style E fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays a song from a spreadsheet]
+    A[Make a program that plays any song from a spreadsheet]
     B[Convert a song into CSV]
     C[Play CSV]
     D[Provide a WAV File]
@@ -179,7 +179,7 @@ graph LR
     style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
     style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    A[Make a program that plays a song from a spreadsheet]
+    A[Make a program that plays any song from a spreadsheet]
     B[Convert a song into CSV]
     C[Play CSV]
     D[Provide a WAV File]
@@ -201,7 +201,7 @@ graph LR
     style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
     style F fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style G fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays a song from a spreadsheet]
+    A[Make a program that plays any song from a spreadsheet]
     B[Convert a song into CSV]
     C[Play CSV]
     D[Provide a WAV File]
