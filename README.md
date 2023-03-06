@@ -216,6 +216,58 @@ graph LR
     C --> G
 ```
 
+Let's say you try solve "Convert CSV to WAV" and "Play WAV" with AI assistance, and it works! Awesome, these probably worked, because of the AI knowing about our prior problems and solutions! Here is the updated diagram.
+
+```mermaid
+graph LR
+    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style F fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style G fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    A[Make a program that plays any song from a spreadsheet]
+    B[Convert a song into CSV]
+    C[Play CSV]
+    D[Provide a WAV File]
+    E[Convert WAV to CSV]
+    F[Convert CSV to WAV]
+    G[Play WAV]
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+```
+
+Let's say you try to solve "Play CSV" with AI assistance again. Although you could have done this manually, now with the prior solution context, the ai assistance solves the problem quickly! Here is where the diagram is now.
+
+```mermaid
+graph LR
+    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style F fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style G fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    A[Make a program that plays any song from a spreadsheet]
+    B[Convert a song into CSV]
+    C[Play CSV]
+    D[Provide a WAV File]
+    E[Convert WAV to CSV]
+    F[Convert CSV to WAV]
+    G[Play WAV]
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+```
+
 ## Predictions and FAQ (QAP)
 * Q: is Question
 * A: is Answer
