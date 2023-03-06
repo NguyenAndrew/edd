@@ -122,3 +122,17 @@ A: To establish a reusable way of making cool stuff in a post AI assistant world
 A: Referring to a world post ChatGPT and GitHub CoPilot
 
 P: I believe there are going to be different names for the AI assistants in the future. For this reason, I wanted to keep "AI Assistant" fix.
+
+<br>
+
+#### Q: Does EDD replace microservices or bounded contexts?
+
+A: EDD can work with microservice and bounded contexts. Similar to how TDD and BDD works with these concepts.
+
+P: EDD is going to change how people think about microservice and bounded contexts, especially with how focused EDD is on composables pieces of value delivery
+
+#### Q: Does EDD replace TDD or BDD?
+
+A: EDD is another option, it doesn't replace TDD or BDD directly (Reminder: EDD is a new way of solving problems in a post AI assistant world).
+
+P: EDD starts with a summarization of the answer, so you will see pros/cons compared to BDD or TDD. In any case, EDD creates new advancements, when taking the best approach to solve a problem
