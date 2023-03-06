@@ -56,7 +56,7 @@ A: EDD is Ent Driven Development.
 <br>
 
 #### Q: What is Ent?
-A: Ent is a new word based on the word "Entity". Ent represents the composable blocks of value that can be delivered by user with/without AI assistance.
+A: Ent is a new word based on the word "Entity". Ent represents the composable blocks of value that can be delivered either with/without AI assistance.
 
 <br>
 
