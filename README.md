@@ -233,6 +233,30 @@ A: The key difference is that AI assistants can now help solve problems quickly,
 
 <br>
 
+#### Q: Where does refactoring and unit testing fit within EDD?
+
+A: Refactoring and unit testing, are just additional ents that you create. Here is an EDD diagram example:
+
+```mermaid
+graph LR
+    style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style D fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style E fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    A[Make an enterprise program that plays any song]
+    B[Provide a WAV file]
+    C[Program plays a WAV file]
+    D[Program is Unit Tested]
+    E[Program is Refactored to match best standards]
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+```
+
+<br>
+
 #### Q: Does EDD replace microservices or bounded contexts?
 
 A: EDD can work with microservice and bounded contexts. Similar to how TDD and BDD works with these concepts.
