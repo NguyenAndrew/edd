@@ -221,7 +221,7 @@ A: To establish a reusable way of making cool stuff in a post AI assistant world
 
 #### Q: What "AI assistants" do you mean here?
 
-A: Referring to a world post ChatGPT and GitHub CoPilot
+A: Referring ChatGPT and GitHub CoPilot, and includes any other AI assistants that help solve problems.
 
 P: I believe there are going to be different names for the AI assistants in the future. For this reason, I wanted to keep "AI Assistant" generic.
 
