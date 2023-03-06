@@ -2,16 +2,16 @@
 
 
 
-## Example
+## Example 1 (Play any song)
 
 Imagine you are trying to solve for the following problem **"Make a program that plays any song"**.
 
 <br>
 
-Let's start with a graph that contains this ent and assume the diagram has the following key:
+Let's start with a graph that contains an ent and assume the diagram has the following key:
 * White Box - Unsolved
-* Grey Box - Unsolved and couldn't use AI to solve
-* Green Box - Solved by an AI
+* Grey Box - Unsolved, couldn't solve with AI
+* Green Box - Solved with AI
 * Light Green Box - Solved by a Human
 
 ```mermaid
@@ -20,6 +20,28 @@ graph LR
     style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
+Let's say when you try to solve the problem with AI, the program plays only simple song. It does not play complex songs. In this case, you would color the box grey, as this problem was not solved.
+
+```mermaid
+graph LR
+    A[Make a program that plays any song]
+    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+```
+
+<br>
+
+```mermaid
+graph LR
+    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    A[Make a program that solves any song]
+    B[Provide a WAV file]
+    C[Program plays a WAV file]
+    A --> B
+    A --> C
+
+```
 
 ## Predictions and FAQ (QAP)
 * Q: is Question
