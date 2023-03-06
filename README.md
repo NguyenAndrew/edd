@@ -1,6 +1,9 @@
 # EDD - Ent Driven Development
 
+## Table of Contents
 
+* [Example 1 - Play any song](#example-1-play-any-song)
+* [FAQ](#predictions-and-faq-qap)
 
 ## Example 1 (Play any song)
 
