@@ -136,6 +136,8 @@ P: I believe there are going to be different names for the AI assistants in the 
 
 A: The key difference is that AI assistants can now help solve problems quickly, offsetting the costs of creating EDD diagrams and making ents. There wasn't a need before, going forward the identification of ents will not only solve problems quicker, but also help drive future improvement through identifing problems solved with/without AI.
 
+<br>
+
 #### Q: Does EDD replace microservices or bounded contexts?
 
 A: EDD can work with microservice and bounded contexts. Similar to how TDD and BDD works with these concepts.
