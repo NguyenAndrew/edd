@@ -259,7 +259,7 @@ graph LR
 
 #### Q: If there is an API or library that solves one of my ents, can I consider it automatically solved?
 
-A: No, you can't consider it automatically solved. There maybe a mismatch with the data you have, and the API or Library you are interacting with. An ent is not considered solved, unless you can prove you can use it succesfully, and get the correct output.
+A: No, you can't consider it automatically solved. There maybe a mismatch with the data you have, and the API or library you are interacting with. An ent is not considered solved, unless you can prove you can use it succesfully, and get the correct output.
 
 <br>
 
