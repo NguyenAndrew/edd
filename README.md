@@ -216,7 +216,7 @@ graph LR
     C --> G
 ```
 
-Let's say you try solve "Convert CSV to WAV" and "Play WAV" with AI assistance, and it works! Awesome, these probably worked, because of the AI knowing about our prior problems and solutions! Here is the updated diagram.
+Let's say you try solve "Convert CSV to WAV" and "Play WAV" with AI assistance, and it works! Awesome, these probably worked because of the AI knowing about our prior problems and solutions! Here is the updated diagram.
 
 ```mermaid
 graph LR
