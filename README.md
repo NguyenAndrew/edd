@@ -30,13 +30,29 @@ graph LR
 
 To get to the point where you can solve this problem, you can break down this ent (Note: You can either break down the ent by yourself or with AI assistance)
 
-Let's say we got to the point where you created the followings ents "Provide a WAV file" and "Program plays a WAV file". The ent graph now looks like the following:  
+Let's say you got to the point where you created the followings ents "Provide a WAV file" and "Program plays a WAV file". The ent graph now looks like the following:  
 
 ```mermaid
 graph LR
     style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style B fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    A[Make a program that solves any song]
+    B[Provide a WAV file]
+    C[Program plays a WAV file]
+    A --> B
+    A --> C
+```
+
+Let's say you decide to provide the WAV files yourself, you would color this box light-green (as shown in the key above).
+
+Let's say you try to make a program that plays a WAV file with AI assistance, and it works! Let's color this box green (as shown in the key above).
+
+```mermaid
+graph LR
+    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     A[Make a program that solves any song]
     B[Provide a WAV file]
     C[Program plays a WAV file]
