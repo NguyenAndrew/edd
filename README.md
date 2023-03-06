@@ -170,6 +170,26 @@ graph LR
     B --> E
 ```
 
+With these two solutions, you now solve "Convert a song into CSV".
+
+```mermaid
+graph LR
+    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    A[Make a program that plays a song from a spreadsheet]
+    B[Convert a song into CSV]
+    C[Play CSV]
+    D[Provide a WAV File]
+    E[Convert WAV to CSV]
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+```
+
 ## Predictions and FAQ (QAP)
 * Q: is Question
 * A: is Answer
