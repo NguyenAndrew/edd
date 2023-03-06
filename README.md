@@ -8,7 +8,7 @@ Imagine you are trying to solve for the following problem **"Make a program that
 
 <br>
 
-Let's start with a graph that contains an ent, and assume the diagram has the following key:
+Let's start with a diagram that contains an ent, and assume the following:
 * White Box - Unsolved
 * Grey Box - Unsolved, couldn't solve with AI
 * Green Box - Solved with AI
@@ -20,7 +20,7 @@ graph LR
     style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
-Let's say when you try to solve the problem with AI, the program plays only simple songs. It does not play complex songs. In this case, you would color the box grey, as this problem was not solved with AI.
+Let's say when you try to solve the problem with AI, the program plays only simple songs. It does not play complex songs. You would color the box grey, as this problem was not solved with AI.
 
 ```mermaid
 graph LR
@@ -28,9 +28,9 @@ graph LR
     style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
-To get to the point where you can solve this problem, you can break down this ent (Note: You can either break down the ent by yourself or with AI assistance)
+To get to the point where you can solve this problem, you can "break down" this ent (Note: You can either break down the ent by yourself or with AI assistance).
 
-Let's say you got to the point where you created the followings ents "Provide a WAV file" and "Program plays a WAV file". The ent graph now looks like the following:  
+Let's say you got to the point where you created the followings ents "Provide a WAV file" and "Program plays a WAV file". Let's add these ents to the diagram.  
 
 ```mermaid
 graph LR
@@ -44,9 +44,9 @@ graph LR
     A --> C
 ```
 
-Let's say you decide to provide the WAV files yourself, you would color this box light-green (as shown in the key above).
+Let's say you decide to solve "Provide a WAV file" without AI assistance, you would color this box light-green (as shown in the key above).
 
-Let's say you try to make a program that plays a WAV file with AI assistance, and it works! Let's color this box green (as shown in the key above).
+Let's say you try to make a "Program that plays a WAV file" with AI assistance, and it works! Let's color this box green (as shown in the key above).
 
 ```mermaid
 graph LR
@@ -60,7 +60,7 @@ graph LR
     A --> C
 ```
 
-Now you have solved these ents, let's try to solve the original ent. Let's say you simply put the two solutions together, the problem is solved! You can also update the diagram.
+Now you have solved these ents, let's try to solve the original ent. Let's say you simply put the two solutions together, and you confirm the problem is solved! You can also update the diagram.
 
 ```mermaid
 graph LR
@@ -74,7 +74,7 @@ graph LR
     A --> C
 ```
 
-Note: In another scenario, you could have put the two solutions together with ai assistance to solve the problem. It would make this diagram.
+Note: In another scenario, you could have put the two solutions together with AI assistance to solve the problem, and you confirm it works! It would make this diagram.
 
 ```mermaid
 graph LR
@@ -87,7 +87,6 @@ graph LR
     A --> B
     A --> C
 ```
-
 
 ## Predictions and FAQ (QAP)
 * Q: is Question
