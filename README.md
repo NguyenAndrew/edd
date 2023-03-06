@@ -116,7 +116,7 @@ graph LR
     style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
-Let's break down this ent into two ents "Convert a song into CSV" and "Play CSV"
+Let's break down this ent into two ents "Convert a song into CSV" and "Play CSV".
 
 ```mermaid
 graph LR
@@ -130,7 +130,7 @@ graph LR
     A --> C
 ```
 
-Let's say you want to solve "Convert a song into CSV" first. You try to solve this problem with AI assistance, but you have no solution here. You come up with the following ents "Provide a WAV file" and "Convert WAV to CSV" to CSV.
+Let's say you want to solve "Convert a song into CSV" first. You try to solve this problem with AI assistance, but you have no solution here. You come up with the following ents "Provide a WAV file" and "Convert WAV to CSV".
 
 ```mermaid
 graph LR
