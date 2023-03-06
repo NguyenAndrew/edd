@@ -7,7 +7,7 @@ More clarifications can be seen in the following examples and FAQ.
 ## Table of Contents
 
 * [Example 1 - Play any song](#example-1-play-any-song)
-* [Example 2 - Play any spreadsheet](#example-1-play-any-spreadsheet)
+* [Example 2 - Play any spreadsheet](#example-2-play-any-spreadsheet)
 * [FAQ](#predictions-and-faq-qap)
 
 ## Example 1 (Play any song)
