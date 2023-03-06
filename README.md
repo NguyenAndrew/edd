@@ -268,6 +268,52 @@ graph LR
     C --> G
 ```
 
+We can now solve the original ent, which looks like the following.
+
+```mermaid
+graph LR
+    style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style F fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style G fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    A[Make a program that plays any song from a spreadsheet]
+    B[Convert a song into CSV]
+    C[Play CSV]
+    D[Provide a WAV File]
+    E[Convert WAV to CSV]
+    F[Convert CSV to WAV]
+    G[Play WAV]
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+```
+
+Additionally, now that we have more understanding based on our EDD Diagram, we can also update the diagram to be the following.
+
+```mermaid
+graph LR
+    style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
+    A[Make a program that plays any song from a spreadsheet]
+    B[Provide a CSV that represents a song]
+    C[Play CSV]
+    D[Convert CSV to WAV]
+    E[Play WAV]
+    A --> B
+    A --> C
+    C --> D
+    C --> E
+```
+
 ## Predictions and FAQ (QAP)
 * Q: is Question
 * A: is Answer
