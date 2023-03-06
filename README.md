@@ -1,6 +1,26 @@
 # EDD - Ent Driven Development
 
 
+
+## Example
+
+Imagine you are trying to solve for the following problem **"Make a program that plays any song"**.
+
+<br>
+
+Let's start with a graph that contains this ent and assume the diagram has the following key:
+* White Box - Unsolved
+* Grey Box - Unsolved and couldn't use AI to solve
+* Green Box - Solved by an AI
+* Light Green Box - Solved by a Human
+
+```mermaid
+graph LR
+    A[Make a program that plays any song]
+    style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
+```
+
+
 ## Predictions and FAQ (QAP)
 * Q: is Question
 * A: is Answer
