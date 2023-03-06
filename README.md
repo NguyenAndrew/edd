@@ -242,7 +242,7 @@ graph LR
     C --> G
 ```
 
-Let's say you try to solve "Play CSV" with AI assistance again. Although you could have done this manually, now with the prior solution context, the ai assistance solves the problem quickly! Here is where the diagram is now.
+Let's say you try to solve "Play CSV" with AI assistance again. Although you could have done this manually, now with the prior solution context, the AI assistance solves the problem quickly! Here is where the diagram is now.
 
 ```mermaid
 graph LR
