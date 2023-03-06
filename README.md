@@ -28,7 +28,9 @@ graph LR
     style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
-<br>
+To get to the point where you can solve this problem, you can break down this ent (Note: You can either break down the ent by yourself or with AI assistance)
+
+Let's say we got to the point where you created the followings ents "Provide a WAV file" and "Program plays a WAV file". The ent graph now looks like the following:  
 
 ```mermaid
 graph LR
@@ -40,7 +42,6 @@ graph LR
     C[Program plays a WAV file]
     A --> B
     A --> C
-
 ```
 
 ## Predictions and FAQ (QAP)
