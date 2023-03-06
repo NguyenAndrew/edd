@@ -12,7 +12,7 @@ Let's start with a graph that contains an ent, and assume the diagram has the fo
 * White Box - Unsolved
 * Grey Box - Unsolved, couldn't solve with AI
 * Green Box - Solved with AI
-* Light Green Box - Solved by a Human
+* Light Green Box - (Mostly) Solved by a Human
 
 ```mermaid
 graph LR
