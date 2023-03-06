@@ -257,6 +257,12 @@ graph LR
 
 <br>
 
+#### Q: If there is an API or library that solves one of my ents, can I consider it automatically solved?
+
+A: No, you can't consider it automatically solved. There maybe a mismatch with the data you have, and the API or Library you are interacting with. An ent is not considered solved, unless you can prove you can use it succesfully, and get the correct output.
+
+<br>
+
 #### Q: Does EDD replace microservices or bounded contexts?
 
 A: EDD can work with microservice and bounded contexts. Similar to how TDD and BDD works with these concepts.
