@@ -8,7 +8,7 @@ Imagine you are trying to solve for the following problem **"Make a program that
 
 <br>
 
-Let's start with a graph that contains an ent and assume the diagram has the following key:
+Let's start with a graph that contains an ent, and assume the diagram has the following key:
 * White Box - Unsolved
 * Grey Box - Unsolved, couldn't solve with AI
 * Green Box - Solved with AI
@@ -20,7 +20,7 @@ graph LR
     style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
 ```
 
-Let's say when you try to solve the problem with AI, the program plays only simple song. It does not play complex songs. In this case, you would color the box grey, as this problem was not solved.
+Let's say when you try to solve the problem with AI, the program plays only simple songs. It does not play complex songs. In this case, you would color the box grey, as this problem was not solved.
 
 ```mermaid
 graph LR
