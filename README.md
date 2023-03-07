@@ -56,217 +56,47 @@ Let's use a harder and more innovative example. This example is based on a real 
 
 Imagine you want to play a CSV file (spreadsheet file), where that CSV contains a representation of a song. Let's create the following ent.
 
-```mermaid
-graph LR
-    A[Make a program that plays any song from a spreadsheet]
-    style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-```
+<img src="images/Example2-1.svg">
 
 Let's say you try to solve this problem directly with an AI, and it doesn't work. Furthermore, you have no idea how you can even represent a music file using CSV. 
 
-```mermaid
-graph LR
-    A[Make a program that plays any song from a spreadsheet]
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-```
+<img src="images/Example2-2.svg">
 
 Let's break down this ent into two ents "Convert a song into CSV" and "Play CSV".
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    A --> B
-    A --> C
-```
+<img src="images/Example2-3.svg">
 
 Let's say you want to solve "Convert a song into CSV" first. You try to solve this problem with AI assistance, but you have no solution here. You come up with the following ents "Provide a WAV file" and "Convert WAV to CSV".
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style E fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    D[Provide a WAV File]
-    E[Convert WAV to CSV]
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-```
+<img src="images/Example2-4.svg">
 
 Similar to Example 1, you provide the CSV file manually. Also, you have performed some excellent prompting, your AI assistant was able to solve the problem of converting a WAV to CSV. Here is the updated EDD diagram.
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style E fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    D[Provide a WAV File]
-    E[Convert WAV to CSV]
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-```
+<img src="images/Example2-5.svg">
 
 With these two solutions, you now solve "Convert a song into CSV".
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    D[Provide a WAV File]
-    E[Convert WAV to CSV]
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-```
+<img src="images/Example2-6.svg">
 
 Let's solve "Play CSV" next. You try to solve this problem with AI assistance, but you have no solution here. You come up with the following ents "Convert CSV to WAV" and "Play WAV".
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style F fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style G fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    D[Provide a WAV File]
-    E[Convert WAV to CSV]
-    F[Convert CSV to WAV]
-    G[Play WAV]
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
-```
+<img src="images/Example2-7.svg">
 
 Let's say you try solve "Convert CSV to WAV" and "Play WAV" with AI assistance, and it works! Awesome, these probably worked because of the AI knowing about our prior problems and solutions! Here is the updated diagram.
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style F fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style G fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    D[Provide a WAV File]
-    E[Convert WAV to CSV]
-    F[Convert CSV to WAV]
-    G[Play WAV]
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
-```
+<img src="images/Example2-8.svg">
 
 Let's say you try to solve "Play CSV" with AI assistance again. Although you could have done this manually, now with the prior solution context, the AI assistance solves the problem quickly! Here is where the diagram is now.
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style F fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style G fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    D[Provide a WAV File]
-    E[Convert WAV to CSV]
-    F[Convert CSV to WAV]
-    G[Play WAV]
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
-```
+<img src="images/Example2-9.svg">
 
 We can now solve the original ent, which looks like the following.
 
-```mermaid
-graph LR
-    style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style F fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style G fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Convert a song into CSV]
-    C[Play CSV]
-    D[Provide a WAV File]
-    E[Convert WAV to CSV]
-    F[Convert CSV to WAV]
-    G[Play WAV]
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
-```
+<img src="images/Example2-10.svg">
 
 Additionally, now that we have more understanding based on our EDD Diagram, we can also update the diagram to be the following.
 
-```mermaid
-graph LR
-    style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style D fill:#ADFF2F,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    style E fill:#32CD32,stroke:#4d4d4,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song from a spreadsheet]
-    B[Provide a CSV that represents a song]
-    C[Play CSV]
-    D[Convert CSV to WAV]
-    E[Play WAV]
-    A --> B
-    A --> C
-    C --> D
-    C --> E
-```
+<img src="images/Example2-11.svg">
 
 Example 2 is now solved!
 
