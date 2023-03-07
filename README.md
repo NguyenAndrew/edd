@@ -26,27 +26,13 @@ Let's start with a diagram that contains an ent, and assume the following:
 
 Let's say when you try to solve the problem with AI, the program plays only simple songs. It does not play complex songs. You would color the box grey, as this problem was not solved with AI.
 
-```mermaid
-graph LR
-    A[Make a program that plays any song]
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-```
+<img src="images/Example1-2.png">
 
 To get to the point where you can solve this problem, you can "break down" this ent (Note: You can either break down the ent by yourself or with AI assistance).
 
 Let's say you got to the point where you created the followings ents "Provide a WAV file" and "Program plays a WAV file". Let's add these ents to the diagram.  
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song]
-    B[Provide a WAV file]
-    C[Program plays a WAV file]
-    A --> B
-    A --> C
-```
+<img src="images/Example1-3.png">
 
 Let's say you decide to solve "Provide a WAV file" without AI assistance, you would color this box light-green (as shown in the key above).
 
