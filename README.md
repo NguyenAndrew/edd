@@ -273,7 +273,7 @@ graph LR
 We can now solve the original ent, which looks like the following.
 
 ```mermaid
-graph TD
+graph LR
     style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
@@ -299,7 +299,7 @@ graph TD
 Additionally, now that we have more understanding based on our EDD Diagram, we can also update the diagram to be the following.
 
 ```mermaid
-graph TD
+graph LR
     style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
     style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
