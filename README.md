@@ -22,11 +22,7 @@ Let's start with a diagram that contains an ent, and assume the following:
 * Green Box - Solved with AI
 * Light Green Box - (Mostly) Solved by a Human
 
-```mermaid
-graph LR
-    A[Make a program that plays any song]
-    style A fill:#fff,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-```
+<img src="images/Example1-1.svg">
 
 Let's say when you try to solve the problem with AI, the program plays only simple songs. It does not play complex songs. You would color the box grey, as this problem was not solved with AI.
 
