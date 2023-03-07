@@ -38,45 +38,15 @@ Let's say you decide to solve "Provide a WAV file" without AI assistance, you wo
 
 Let's say you try to make a "Program that plays a WAV file" with AI assistance, and it works! Let's color this box green (as shown in the key above).
 
-```mermaid
-graph LR
-    style A fill:#A9A9A9,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song]
-    B[Provide a WAV file]
-    C[Program plays a WAV file]
-    A --> B
-    A --> C
-```
+<img src="images/Example1-4.svg">
 
 Now you have solved these ents, let's try to solve the original ent. Let's say you simply put the two solutions together, and you confirm the problem is solved! You can also update the diagram.
 
-```mermaid
-graph LR
-    style A fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song]
-    B[Provide a WAV file]
-    C[Program plays a WAV file]
-    A --> B
-    A --> C
-```
+<img src="images/Example1-5.svg">
 
 Note: In another scenario, you could have put the two solutions together with AI assistance to solve the problem, and you confirm it works! It would make this diagram.
 
-```mermaid
-graph LR
-    style A fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style B fill:#ADFF2F,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    style C fill:#32CD32,stroke:#4d4d4d,stroke-width:2px,rounded:10px
-    A[Make a program that plays any song]
-    B[Provide a WAV file]
-    C[Program plays a WAV file]
-    A --> B
-    A --> C
-```
+<img src="images/Example1-6.svg">
 
 Example 1 is now solved!
 
