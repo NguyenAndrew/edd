@@ -32,7 +32,7 @@ To get to the point where you can solve this problem, you can "break down" this 
 
 Let's say you got to the point where you created the followings ents "Provide a WAV file" and "Program plays a WAV file". Let's add these ents to the diagram.  
 
-<img src="images/Example1-3.png">
+<img src="images/Example1-3.svg">
 
 Let's say you decide to solve "Provide a WAV file" without AI assistance, you would color this box light-green (as shown in the key above).
 
