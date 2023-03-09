@@ -106,21 +106,21 @@ Example 2 is now solved!
 * P: is Predicion
 
 Questions:
-* [What is EDD?](#question)
-* [What is Ent?](#question)
-* [Why not just use the word entity?](#question)
-* [Why did you create EDD?](#question)
-* [What "AI assistants" do you mean here?](#question)
-* [Why are EDD diagrams oriented the way they are?](#question)
-* [Why now? Surely someone would have created this before?](#question)
-* [But it seems like EDD is what I was just doing in my head before? Aren't people already doing this process today? How is this innovative?](#question)
-* [Where does refactoring and unit testing fit within EDD?](#question)
-* [Is there a way that I can indicate that an ent should be solved without using AI assistance?](#question)
-* [Also, is there a way I can indicate that solved ents shouldn't have been solved using AI assistance?](#question)
-* [If there is an API or library that solves one of my ents, can I consider it automatically solved?](#question)
-* [Does EDD replace microservices or bounded contexts?](#question)
-* [Does EDD replace TDD or BDD?](#question)
-* [What color codes did you use for the EDD diagrams?](#question)
+* [What is EDD?](#q-what-is-edd)
+* [What is Ent?](#q-what-is-ent)
+* [Why not just use the word entity?](#q-why-not-just-use-the-word-entity)
+* [Why did you create EDD?](#q-why-did-you-create-edd)
+* [What "AI assistants" do you mean here?](#q-what-ai-assistants-do-you-mean-here)
+* [Why are EDD diagrams oriented the way they are?](#q-why-are-edd-diagrams-oriented-the-way-they-are)
+* [Why now? Surely someone would have created this before?](#q-why-now-surely-someone-would-have-created-this-before)
+* [But it seems like EDD is what I was just doing in my head before? Aren't people already doing this process today? How is this innovative?](#q-but-it-seems-like-edd-is-what-i-was-just-doing-in-my-head-before-arent-people-already-doing-this-process-today-how-is-this-innovative)
+* [Where does refactoring and unit testing fit within EDD?](#q-where-does-refactoring-and-unit-testing-fit-within-edd)
+* [Is there a way that I can indicate that an ent should be solved without using AI assistance?](#q-is-there-a-way-that-i-can-indicate-that-an-ent-should-be-solved-without-using-ai-assistance)
+* [Also, is there a way I can indicate that solved ents shouldn't have been solved using AI assistance?](#q-also-is-there-a-way-i-can-indicate-that-solved-ents-shouldnt-have-been-solved-using-ai-assistance)
+* [If there is an API or library that solves one of my ents, can I consider it automatically solved?](#q-if-there-is-an-api-or-library-that-solves-one-of-my-ents-can-i-consider-it-automatically-solved)
+* [Does EDD replace microservices or bounded contexts?](#q-does-edd-replace-microservices-or-bounded-contexts)
+* [Does EDD replace TDD or BDD?](#q-does-edd-replace-tdd-or-bdd)
+* [What color codes did you use for the EDD diagrams?](#q-what-color-codes-did-you-use-for-the-edd-diagrams)
 
 <br>
 
