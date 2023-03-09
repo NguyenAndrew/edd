@@ -149,6 +149,12 @@ A: Although EDD can work without the usage of AI assistance, the creation of EDD
 
 <br>
 
+#### Q: Why are EDD diagrams oriented the way they are?
+
+A: EDD reuses the "shift left" philosophy. In this case, EDD puts the "solutions that are high impact to you on the left", while "the solutions that help you towards your goal solutions" on the right. In this case, you would see and aim to solve the problems farthest left first. Important: This philosphy is used to keep you focused, but it is completely possible that a solution on the right side can provide a ton of value by itself (Example: You intend to solve a problem, but as a byproduct you discover a million/billion dollar solution along the way).
+
+<img src="images/FAQ-shift_left.svg">
+
 #### Q: Where does refactoring and unit testing fit within EDD?
 
 A: Refactoring and unit testing, are just additional ents that you create. Here is an EDD diagram example:
