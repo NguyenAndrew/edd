@@ -143,6 +143,12 @@ A: The key difference is that AI assistants can now help solve problems quickly,
 
 <br>
 
+#### Q: It seems like EDD is what I was just doing in my head before? Aren't people already doing this process today? How is this innovative?
+
+A: Although EDD can work without the usage of AI assistance, the creation of EDD diagrams not only helps you solve problems, it introduces a brand new way of identifying where AI needs to be improved to help you solve problems. Additionally EDD being a consistent, standard, and shareable process provides value.
+
+<br>
+
 #### Q: Where does refactoring and unit testing fit within EDD?
 
 A: Refactoring and unit testing, are just additional ents that you create. Here is an EDD diagram example:
