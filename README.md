@@ -117,6 +117,7 @@ Questions:
 * [Where does refactoring and unit testing fit within EDD?](#q-where-does-refactoring-and-unit-testing-fit-within-edd)
 * [Is there a way that I can indicate that an ent should be solved without using AI assistance?](#q-is-there-a-way-that-i-can-indicate-that-an-ent-should-be-solved-without-using-ai-assistance)
 * [Also, is there a way I can indicate that solved ents shouldn't have been solved using AI assistance?](#q-also-is-there-a-way-i-can-indicate-that-solved-ents-shouldnt-have-been-solved-using-ai-assistance)
+* [Can I make a bunch of unsolved ents ahead of time, before I start solving my problem?](#question)
 * [If there is an API or library that solves one of my ents, can I consider it automatically solved?](#q-if-there-is-an-api-or-library-that-solves-one-of-my-ents-can-i-consider-it-automatically-solved)
 * [Does EDD replace microservices or bounded contexts?](#q-does-edd-replace-microservices-or-bounded-contexts)
 * [Does EDD replace TDD or BDD?](#q-does-edd-replace-tdd-or-bdd)
@@ -193,6 +194,14 @@ A: Suggestion - You could color the unsolved ent as beige. Here is an example:
 #### Q: Also, is there a way I can indicate that solved ents shouldn't have been solved using AI assistance?
 
 A: Suggestion - You could also change the border color to beige, and underline the text for both unsolved/solved ents.
+
+<br>
+
+#### Q: Can I make a bunch of unsolved ents ahead of time, before I start solving my problem?
+
+A: I would recommend solving the problem first, so that you stay focused on the "[solutions that are high impact to you]((#q-why-are-edd-diagrams-oriented-the-way-they-are))".
+
+P: People will make a bunch of unsolved ents ahead of time, due to the flexibility of the EDD process and making diagrams. Although there are definitely cons, there could be pros as well, for your case! My second recommendation here is to at least think of the pros/cons, if you do end up taking this approach. 
 
 <br>
 
