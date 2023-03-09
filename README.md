@@ -155,6 +155,8 @@ A: EDD reuses the "shift left" philosophy. In this case, EDD puts the "solutions
 
 <img src="images/FAQ-shift_left.svg">
 
+<br>
+
 #### Q: Where does refactoring and unit testing fit within EDD?
 
 A: Refactoring and unit testing, are just additional ents that you create. Here is an EDD diagram example:
