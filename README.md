@@ -196,3 +196,16 @@ P: EDD is going to change how people think about microservice and bounded contex
 A: EDD is another option, it doesn't replace TDD or BDD directly (Reminder: EDD is a new way of solving problems in a post AI assistant world).
 
 P: EDD starts with a summarization of the answer, so you will see pros/cons compared to BDD or TDD. In any case, EDD creates new advancements, when taking the best approach to solve a problem
+
+<br>
+
+#### Q: What color codes did you use for the EDD diagrams?
+
+A: Here is the list of color codes:
+
+* Black (Default border color)- `#4d4d4d`
+* White (Unsolved)- `#fff`
+* Grey (Unsolved, couldn't solve with AI) - `#A9A9A9`
+* Dark Green (Solved with AI) - `#32CD32`
+* Light Green (Mostly solved by a Human) - `#ADFF2F` 
+* Beige (Suggestion: Only Human should solve) - `#F5DEB3`
