@@ -105,6 +105,23 @@ Example 2 is now solved!
 * A: is Answer
 * P: is Predicion
 
+Questions:
+* [What is EDD?](#question)
+* [What is Ent?](#question)
+* [Why not just use the word entity?](#question)
+* [Why did you create EDD?](#question)
+* [What "AI assistants" do you mean here?](#question)
+* [Why are EDD diagrams oriented the way they are?](#question)
+* [Why now? Surely someone would have created this before?](#question)
+* [But it seems like EDD is what I was just doing in my head before? Aren't people already doing this process today? How is this innovative?](#question)
+* [Where does refactoring and unit testing fit within EDD?](#question)
+* [Is there a way that I can indicate that an ent should be solved without using AI assistance?](#question)
+* [Also, is there a way I can indicate that solved ents shouldn't have been solved using AI assistance?](#question)
+* [If there is an API or library that solves one of my ents, can I consider it automatically solved?](#question)
+* [Does EDD replace microservices or bounded contexts?](#question)
+* [Does EDD replace TDD or BDD?](#question)
+* [What color codes did you use for the EDD diagrams?](#question)
+
 <br>
 
 #### Q: What is EDD?
@@ -173,7 +190,7 @@ A: Suggestion - You could color the unsolved ent as beige. Here is an example:
 
 <br>
 
-#### Q: Is there a way I can also indicate that solved ents shouldn't have been solved using AI assistance?
+#### Q: Also, is there a way I can indicate that solved ents shouldn't have been solved using AI assistance?
 
 A: Suggestion - You could also change the border color to beige, and underline the text for both unsolved/solved ents.
 
