@@ -117,7 +117,7 @@ Questions:
 * [Where does refactoring and unit testing fit within EDD?](#q-where-does-refactoring-and-unit-testing-fit-within-edd)
 * [Is there a way that I can indicate that an ent should be solved without using AI assistance?](#q-is-there-a-way-that-i-can-indicate-that-an-ent-should-be-solved-without-using-ai-assistance)
 * [Also, is there a way I can indicate that solved ents shouldn't have been solved using AI assistance?](#q-also-is-there-a-way-i-can-indicate-that-solved-ents-shouldnt-have-been-solved-using-ai-assistance)
-* [Can I make a bunch of unsolved ents ahead of time, before I start solving my problem?](#question)
+* [Can I make a bunch of unsolved ents ahead of time, before I start solving my problem?](#q-can-i-make-a-bunch-of-unsolved-ents-ahead-of-time-before-i-start-solving-my-problem)
 * [If there is an API or library that solves one of my ents, can I consider it automatically solved?](#q-if-there-is-an-api-or-library-that-solves-one-of-my-ents-can-i-consider-it-automatically-solved)
 * [Does EDD replace microservices or bounded contexts?](#q-does-edd-replace-microservices-or-bounded-contexts)
 * [Does EDD replace TDD or BDD?](#q-does-edd-replace-tdd-or-bdd)
