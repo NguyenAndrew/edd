@@ -139,7 +139,7 @@ P: I believe there are going to be different names for the AI assistants in the 
 
 #### Q: Why are EDD diagrams oriented the way they are?
 
-A: EDD reuses the "shift left" philosophy. In this case, EDD puts the "solutions that are high impact to you on the left", while "the solutions that help you towards your goal solutions" on the right. In this case, you would see and aim to solve the problems farthest left first. Important: This philosphy is used to keep you focused, but it is completely possible that a solution on the right side can provide a ton of value by itself (Example: You intend to solve a problem, but as a byproduct you discover a million/billion dollar solution along the way).
+A: EDD reuses the "shift left" philosophy. In this case, EDD puts "solutions that are high impact to you on the left", while "solutions that help you towards your goal solutions" on the right. In this case, you would see and aim to solve the problems farthest left first. Important: This philosphy is used to keep you focused, but it is completely possible that a solution on the right side can provide a ton of value by itself (Example: You intend to solve a problem, but as a byproduct you discover a million/billion dollar solution along the way).
 
 <img src="images/FAQ-shift_left.svg">
 
