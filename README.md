@@ -171,6 +171,8 @@ A: Suggestion - You could color the unsolved ent as beige. Here is an example:
 
 <img src="images/FAQ-without_ai.svg">
 
+<br>
+
 #### Q: Is there a way I can also indicate that solved ents shouldn't have been solved using AI assistance?
 
 A: Suggestion - You could also change the border color to beige, and underline the text for both unsolved/solved ents.
