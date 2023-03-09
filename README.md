@@ -137,6 +137,14 @@ P: I believe there are going to be different names for the AI assistants in the 
 
 <br>
 
+#### Q: Why are EDD diagrams oriented the way they are?
+
+A: EDD reuses the "shift left" philosophy. In this case, EDD puts the "solutions that are high impact to you on the left", while "the solutions that help you towards your goal solutions" on the right. In this case, you would see and aim to solve the problems farthest left first. Important: This philosphy is used to keep you focused, but it is completely possible that a solution on the right side can provide a ton of value by itself (Example: You intend to solve a problem, but as a byproduct you discover a million/billion dollar solution along the way).
+
+<img src="images/FAQ-shift_left.svg">
+
+<br>
+
 #### Q: Why now? Surely someone would have created this before?
 
 A: The key difference is that AI assistants can now help solve problems quickly, offsetting the costs of creating EDD diagrams and making ents. Although there wasn't a need before, going forward the identification of ents will not only solve problems quicker, but also help drive future improvement through identifying problems solved with/without AI.
@@ -146,14 +154,6 @@ A: The key difference is that AI assistants can now help solve problems quickly,
 #### Q: But it seems like EDD is what I was just doing in my head before? Aren't people already doing this process today? How is this innovative?
 
 A: Although EDD can work without the usage of AI assistance, the creation of EDD diagrams not only helps you solve problems, it introduces a brand new way of identifying where AI needs to be improved to help you solve problems. Additionally EDD being a consistent, standard, and shareable process provides value.
-
-<br>
-
-#### Q: Why are EDD diagrams oriented the way they are?
-
-A: EDD reuses the "shift left" philosophy. In this case, EDD puts the "solutions that are high impact to you on the left", while "the solutions that help you towards your goal solutions" on the right. In this case, you would see and aim to solve the problems farthest left first. Important: This philosphy is used to keep you focused, but it is completely possible that a solution on the right side can provide a ton of value by itself (Example: You intend to solve a problem, but as a byproduct you discover a million/billion dollar solution along the way).
-
-<img src="images/FAQ-shift_left.svg">
 
 <br>
 
