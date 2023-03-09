@@ -199,7 +199,7 @@ A: Suggestion - You could also change the border color to beige, and underline t
 
 #### Q: Can I make a bunch of unsolved ents ahead of time, before I start solving my problem?
 
-A: I would recommend solving the problem first, so that you stay focused on the "[solutions that are high impact to you]((#q-why-are-edd-diagrams-oriented-the-way-they-are))".
+A: I would recommend attempting to solve the problem first, so that you stay focused on the "[solutions that are high impact to you]((#q-why-are-edd-diagrams-oriented-the-way-they-are))".
 
 P: People will make a bunch of unsolved ents ahead of time, due to the flexibility of the EDD process and making diagrams. Although there are definitely cons, there could be pros as well, for your case! My second recommendation here is to first think through the pros/cons, if you do end up taking this approach. 
 
