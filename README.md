@@ -165,6 +165,18 @@ A: Refactoring and unit testing, are just additional ents that you create. Here 
 
 <br>
 
+#### Q: Is there a way that I can indicate that an ent should be solved without using AI assistance?
+
+A: Suggestion - You could color the unsolved ent as beige. Here is an example:
+
+<img src="images/FAQ-without_ai.svg">
+
+#### Q: Is there a way I can also indicate that solved ents shouldn't have been solved using AI assistance?
+
+A: Suggestion - You could also change the border color to beige, and underline the text for both unsolved/solved ents.
+
+<br>
+
 #### Q: If there is an API or library that solves one of my ents, can I consider it automatically solved?
 
 A: No. You should prove your solution succesfully solves the problem, and gets the correct output. There could be a mismatch with the data you have, and the API or library you are interacting with, which is why the ent can't be considered automatically solved.
