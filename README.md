@@ -215,7 +215,7 @@ A: No. You should prove your solution succesfully solves the problem, and gets t
 
 A: EDD can work with microservice and bounded contexts. Similar to how TDD and BDD works with these concepts.
 
-P: EDD is going to change how people think about microservice and bounded contexts, especially with how focused EDD is on composables pieces of value delivery
+P: EDD is going to change how people think about microservice and bounded contexts, especially with how focused EDD is on composables pieces of value delivery.
 
 <br>
 
@@ -223,7 +223,7 @@ P: EDD is going to change how people think about microservice and bounded contex
 
 A: EDD is another option, it doesn't replace TDD or BDD directly (Reminder: EDD is a new way of solving problems in a post AI assistant world).
 
-P: EDD starts with a summarization of the answer, so you will see pros/cons compared to BDD or TDD. In any case, EDD creates new advancements, when taking the best approach to solve a problem
+P: EDD starts with a summarization of the answer, so you will see pros/cons compared to BDD or TDD. In any case, EDD creates new advancements, when taking the best approach to solve a problem.
 
 <br>
 
